@@ -1,0 +1,6 @@
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+xgboost==3.4.1
+joblib==1.5.3
+pyarrow==25.0.1

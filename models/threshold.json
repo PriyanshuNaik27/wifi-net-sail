@@ -1,0 +1,4 @@
+{
+  "threshold": 0.3,
+  "criterion": "max recall subject to precision>=0.75 on VAL"
+}

@@ -1,0 +1,28 @@
+{
+  "gbm": {
+    "total_episodes": 1174,
+    "episodes_with_no_warning": 21,
+    "pct_no_warning": 1.8,
+    "pct_with_warning": 98.2,
+    "lead_time_minutes": {
+      "mean": 109.1,
+      "median": 100.0,
+      "p25": 70.0,
+      "p75": 150.0,
+      "censored_at_minutes": 180
+    }
+  },
+  "historical_baseline": {
+    "total_episodes": 1174,
+    "episodes_with_no_warning": 282,
+    "pct_no_warning": 24.0,
+    "pct_with_warning": 76.0,
+    "lead_time_minutes": {
+      "mean": 80.1,
+      "median": 70.0,
+      "p25": 40.0,
+      "p75": 110.0,
+      "censored_at_minutes": 180
+    }
+  }
+}

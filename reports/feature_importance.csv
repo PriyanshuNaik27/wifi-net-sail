@@ -1,0 +1,94 @@
+feature,native_importance,permutation_importance,group
+AP_age_months,0.0050154994,0.005903070321821624,static_ap_context
+AP_capacity,0.0057455245,0.004734841775949383,static_ap_context
+AP_load_pct,0.17258453,0.016639249186392792,load / load_trend
+AP_load_pct_lag_10m,0.0050867684,0.005270254348196368,load / load_trend
+AP_load_pct_lag_20m,0.0010897404,-7.109577520858501e-06,load / load_trend
+AP_load_pct_lag_30m,0.0013690165,9.452797713533911e-05,load / load_trend
+AP_load_pct_rolling_max_60m,0.0011167005,5.4887447875584525e-05,load / load_trend
+AP_load_pct_rolling_mean_30m,0.0022964312,5.583306450021031e-05,load / load_trend
+AP_load_pct_rolling_mean_60m,0.005852168,0.0003535227720707912,load / load_trend
+AP_load_pct_rolling_slope_30m,0.028911015,0.0027033665892673307,load / load_trend
+AP_load_pct_rolling_slope_60m,0.015917638,0.013044188338142115,load / load_trend
+AP_load_pct_rolling_std_60m,0.0029811705,0.00021269727096928648,load / load_trend
+SNR_dB,0.0006944408,6.273767304318945e-05,signal/SNR
+SNR_dB_lag_10m,0.00061939715,-6.279435440514902e-07,signal/SNR
+SNR_dB_lag_20m,0.00046167697,1.2990348345209846e-05,signal/SNR
+SNR_dB_lag_30m,0.0005470004,7.826044866865444e-06,signal/SNR
+SNR_dB_rolling_max_60m,0.002557488,0.0001973984047352273,signal/SNR
+SNR_dB_rolling_mean_30m,0.00083316443,-1.4114138446275071e-05,signal/SNR
+SNR_dB_rolling_mean_60m,0.0065849135,0.00024257404922154447,signal/SNR
+SNR_dB_rolling_slope_30m,0.00038340146,5.2511853142034324e-06,signal/SNR
+SNR_dB_rolling_slope_60m,0.00039526788,9.097470967822651e-06,signal/SNR
+SNR_dB_rolling_std_60m,0.00065317104,-3.435447531325852e-05,signal/SNR
+active_users,0.018733324,0.0008497038091006326,usage_volume
+building_type,0.006399757,0.008657544829119356,static_ap_context
+channel_utilization_pct,0.47647592,0.013705306980947607,channel_utilization
+channel_utilization_pct_lag_10m,0.0031001717,0.0005283944272569396,channel_utilization
+channel_utilization_pct_lag_20m,0.00064568967,-9.787235661562477e-06,channel_utilization
+channel_utilization_pct_lag_30m,0.00047628325,-3.86928870208525e-06,channel_utilization
+channel_utilization_pct_rolling_max_60m,0.0011811294,2.1232668396686803e-05,channel_utilization
+channel_utilization_pct_rolling_mean_30m,0.0025638368,3.638248939410449e-05,channel_utilization
+channel_utilization_pct_rolling_mean_60m,0.0060211048,4.292813110950977e-05,channel_utilization
+channel_utilization_pct_rolling_slope_30m,0.00059392734,8.032657419458911e-05,channel_utilization
+channel_utilization_pct_rolling_slope_60m,0.0033452546,0.00036903976003306306,channel_utilization
+channel_utilization_pct_rolling_std_60m,0.00047646678,1.0809425082158874e-05,channel_utilization
+connected_users,0.055907156,0.002045189162461614,usage_volume
+data_volume_MB,0.0004030732,3.018677916224455e-05,usage_volume
+day_of_week,0.0013255309,0.0003489128574227562,calendar
+floor,0.0038661633,0.0011147492510920954,static_ap_context
+hour,0.0028291082,0.011122127508590896,calendar
+interference_score,0.0010197025,-1.2553616451826954e-05,interference
+interference_score_lag_10m,0.00076119136,5.340698727684945e-06,interference
+interference_score_lag_20m,0.00032806717,1.5063520873503933e-05,interference
+interference_score_lag_30m,0.00030159345,-4.078003168572764e-06,interference
+interference_score_rolling_max_60m,0.0007655216,-2.606799892135303e-05,interference
+interference_score_rolling_mean_30m,0.0021150014,5.569655395798456e-06,interference
+interference_score_rolling_mean_60m,0.0007738267,6.801131607392374e-05,interference
+interference_score_rolling_slope_30m,0.00031492062,7.88046000477216e-07,interference
+interference_score_rolling_slope_60m,0.0007205568,3.3409590604494e-06,interference
+interference_score_rolling_std_60m,0.00051705545,-1.6868833823791008e-06,interference
+is_event_active,0.0021591585,0.0019337539206595532,calendar
+is_lecture_hour,0.009678553,0.000851745376028501,calendar
+is_weekend,0.0015097164,4.102652623343417e-05,calendar
+latency_ms,0.02720335,0.002814364278894632,latency / latency_trend
+latency_ms_lag_10m,0.011488781,0.00051190890146664,latency / latency_trend
+latency_ms_lag_20m,0.00049831753,1.604878149921163e-05,latency / latency_trend
+latency_ms_lag_30m,0.00057191175,4.7333304249352894e-05,latency / latency_trend
+latency_ms_rolling_max_60m,0.00072904746,1.369207022643426e-05,latency / latency_trend
+latency_ms_rolling_mean_30m,0.002207073,2.795683965217677e-07,latency / latency_trend
+latency_ms_rolling_mean_60m,0.0020920832,4.9097507522954945e-05,latency / latency_trend
+latency_ms_rolling_slope_30m,0.0016305663,0.00011798222743781839,latency / latency_trend
+latency_ms_rolling_slope_60m,0.0023707678,5.2153889423744995e-05,latency / latency_trend
+latency_ms_rolling_std_60m,0.00069926307,3.6428386309417246e-05,latency / latency_trend
+packet_loss_pct,0.0048858556,0.001055755499143074,packet_loss
+packet_loss_pct_lag_10m,0.00404271,0.0005992657135365897,packet_loss
+packet_loss_pct_lag_20m,0.00044034864,4.892195084726935e-06,packet_loss
+packet_loss_pct_lag_30m,0.00047385108,8.4845920569121e-06,packet_loss
+packet_loss_pct_rolling_max_60m,0.0008051148,7.10283694075109e-05,packet_loss
+packet_loss_pct_rolling_mean_30m,0.0036910465,0.00010632040399987109,packet_loss
+packet_loss_pct_rolling_mean_60m,0.001290392,8.7125128834864e-05,packet_loss
+packet_loss_pct_rolling_slope_30m,0.000644056,4.473471143895402e-06,packet_loss
+packet_loss_pct_rolling_slope_60m,0.0006094863,2.012605437584636e-05,packet_loss
+packet_loss_pct_rolling_std_60m,0.00061294425,1.6227949580449597e-05,packet_loss
+semester_period,0.0033428278,0.00043443907605713596,calendar
+signal_strength_dBm,0.0044207415,0.0006272811035790138,signal/SNR
+signal_strength_dBm_lag_10m,0.0018181464,2.0400131829378944e-05,signal/SNR
+signal_strength_dBm_lag_20m,0.0009667733,1.4276728630235879e-05,signal/SNR
+signal_strength_dBm_lag_30m,0.001631132,2.1878310498046893e-05,signal/SNR
+signal_strength_dBm_rolling_max_60m,0.00715828,0.0014731100397982644,signal/SNR
+signal_strength_dBm_rolling_mean_30m,0.011117615,0.0004310068414818513,signal/SNR
+signal_strength_dBm_rolling_mean_60m,0.01727716,0.00760907673517921,signal/SNR
+signal_strength_dBm_rolling_slope_30m,0.0003573614,2.5687790253137168e-06,signal/SNR
+signal_strength_dBm_rolling_slope_60m,0.00039052192,-4.748560893630404e-06,signal/SNR
+signal_strength_dBm_rolling_std_60m,0.00082961255,1.172860572242751e-05,signal/SNR
+throughput_Mbps,0.00076890655,9.25045041655137e-05,throughput
+throughput_Mbps_lag_10m,0.0024328881,-4.9991052292175374e-05,throughput
+throughput_Mbps_lag_20m,0.0005438693,4.321107197302609e-06,throughput
+throughput_Mbps_lag_30m,0.0006870971,1.1291123948020676e-05,throughput
+throughput_Mbps_rolling_max_60m,0.0016764558,5.3478594295741645e-05,throughput
+throughput_Mbps_rolling_mean_30m,0.0034220647,-5.598215180486754e-05,throughput
+throughput_Mbps_rolling_mean_60m,0.0039970297,0.00011196577755949733,throughput
+throughput_Mbps_rolling_slope_30m,0.00086885534,6.916045344842469e-05,throughput
+throughput_Mbps_rolling_slope_60m,0.0018041843,2.652848947037878e-05,throughput
+throughput_Mbps_rolling_std_60m,0.000496624,6.660327898977414e-07,throughput
